@@ -22,7 +22,7 @@ $(".click0").click(function(){
 
   $("button").click(function(party) {
        var client = document.getElementById('nameDetail').value;
-       alert('Thanks ' + ' we have received your message successful. ' + '!');
+       alert('Hello there!' + ' Thank you. ' + ' We have received your message successfully ' + '!');
        party.preventDefault();
    });
   //  *************RESET FORM*****************
