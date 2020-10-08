@@ -20,9 +20,9 @@ $(".click0").click(function(){
     $(".show2").slideToggle(1200);
   });
 
-  $("button").click(function(party) {
+  $("button").click(function(Skylar) {
        var client = document.getElementById('nameDetail').value;
-       alert('Hello there!' + ' Thank you. ' + ' We have received your message successfully ' + '!');
+       alert('Hello esteemed client!' + ' Thank you. ' + ' We have received your message successfully ' + '!');
        party.preventDefault();
    });
   //  *************RESET FORM*****************
