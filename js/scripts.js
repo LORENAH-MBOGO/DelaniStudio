@@ -25,6 +25,7 @@ $(".click0").click(function(){
        alert('Hello esteemed client!' + ' Thank you. ' + ' We have received your message successfully ' + '!');
        party.preventDefault();
    });
+   
   //  *************RESET FORM*****************
    $("button").on('click', function(){
      $('form').each(function(){
